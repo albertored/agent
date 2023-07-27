@@ -45,6 +45,8 @@ Main (unreleased)
   - `discovery.openstack` - service discovery for OpenStack. (@marctc)
   - `discovery.hetzner` - service discovery for Hetzner Cloud. (@marctc)
   - `loki.write` now exposes basic WAL support. (@thepalbi)
+  - `otelcol.processor.discovery` adds resource attributes to spans, where the attributes 
+  keys and values are sourced from `discovery.*` components. (@ptodev)
 
 ### Bugfixes
 
